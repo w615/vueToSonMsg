@@ -4,6 +4,7 @@
   <h1>我是父组件</h1>
   <input type="text" v-model="value">
   <button @click="AddAction">提交到子组件</button>
+   <!-- 子组件获取list  通过v-bind绑定toSon -->
   <Son :toSon="list"/>
 </div>
 </template>
